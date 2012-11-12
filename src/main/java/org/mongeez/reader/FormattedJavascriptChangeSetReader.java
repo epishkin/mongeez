@@ -11,9 +11,10 @@
 package org.mongeez.reader;
 
 import org.apache.log4j.Logger;
+import org.springframework.core.io.Resource;
+
 import org.mongeez.commands.ChangeSet;
 import org.mongeez.commands.Script;
-import org.springframework.core.io.Resource;
 
 import java.io.BufferedReader;
 import java.io.IOException;

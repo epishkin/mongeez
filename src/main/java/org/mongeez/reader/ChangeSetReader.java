@@ -12,8 +12,9 @@
 
 package org.mongeez.reader;
 
-import org.mongeez.commands.ChangeSet;
 import org.springframework.core.io.Resource;
+
+import org.mongeez.commands.ChangeSet;
 
 import java.util.List;
 

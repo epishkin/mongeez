@@ -10,10 +10,11 @@
 
 package org.mongeez.reader;
 
-import org.mongeez.commands.ChangeSet;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.testng.annotations.Test;
+
+import org.mongeez.commands.ChangeSet;
 
 import java.nio.charset.Charset;
 import java.util.List;

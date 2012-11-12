@@ -12,9 +12,10 @@
 
 package org.mongeez.reader;
 
-import org.mongeez.commands.ChangeSet;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
+
+import org.mongeez.commands.ChangeSet;
 
 class ChangeSetReaderUtil {
     static void populateChangeSetResourceInfo(ChangeSet changeSet, Resource file) {

@@ -14,6 +14,7 @@ package org.mongeez;
 
 import com.mongodb.Mongo;
 import org.apache.log4j.Logger;
+
 import org.mongeez.commands.ChangeSet;
 import org.mongeez.commands.Script;
 import org.mongeez.dao.MongeezDao;

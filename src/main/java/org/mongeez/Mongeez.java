@@ -15,12 +15,13 @@ package org.mongeez;
 import com.mongodb.Mongo;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.springframework.core.io.Resource;
+
 import org.mongeez.commands.ChangeSet;
 import org.mongeez.commands.Script;
 import org.mongeez.reader.ChangeSetFileProvider;
 import org.mongeez.reader.ChangeSetReaderFactory;
 import org.mongeez.reader.FilesetXMLChangeSetFileProvider;
-import org.springframework.core.io.Resource;
 
 import java.util.ArrayList;
 import java.util.List;
